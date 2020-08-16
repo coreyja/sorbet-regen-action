@@ -1,5 +1,5 @@
 # Container image that runs your code
-FROM base
+FROM debian:latest
 
 # Install packages for building ruby
 RUN apt-get update
